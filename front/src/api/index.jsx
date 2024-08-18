@@ -3,5 +3,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'http://localhost:5085/api',
+  baseURL: 'https://dgm-final-appservice.azurewebsites.net/api',
 })
